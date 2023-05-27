@@ -55,7 +55,7 @@ public class Activity8 {
         driver.findElement(By.id("applyBtn")).click();
         System.out.println("done");
         // Close the browser
-        //driver.close();
+        driver.close();
 
 
     }

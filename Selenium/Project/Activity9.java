@@ -1,5 +1,5 @@
 //Retrieve emergency contacts
-//Goal: Login and retrieve the emergency contacts for the user
+//Goal: Login and retrieve the emergency contcts for the user
 
 package Activities;
 

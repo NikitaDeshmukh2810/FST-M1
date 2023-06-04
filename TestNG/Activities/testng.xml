@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+    <test name="SuiteTests" >
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+           <!--groups>
+        <run>
+            <include name="HeaderTests" />
+
+            <exclude name="HeaderTests" />-->
+
+        <!--/run>-->
+
+    <!--/groups>//this grp selection required only for activity5-->
+        <classes>
+            <class name="examples.Demoone"/>
+            <class name="activities.Activity1"/>
+            <class name="activities.Activity2"/>
+            <class name="activities.Activity3"/>
+            <class name="activities.Activity5"/>
+            <class name="activities.Activity6"/>
+            <class name="activities.Activity7"/>
+            <class name="activities.Activity9"/>
+            <class name="Activity4.suiteExample.DemoOne"/>
+            <class name="Activity4.suiteExample.DemoTwo"/>
+        </classes>
+    </test>
+</suite>
